@@ -33,7 +33,7 @@ function DigitalClock() {
     }
 
     return(
-        <div className="backdrop-blur-md w-lvw pt-3 pb-6">
+        <div className="backdrop-blur-md w-lvw pt-6 pb-6">
             <div className="flex justify-center items-cente">
                 <span className="text-center text-white text-7xl sm:text-8xl text-shadow-lg font-semibold">{formatTime()}</span>
             </div>
